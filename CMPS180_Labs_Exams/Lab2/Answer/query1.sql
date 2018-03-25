@@ -1,0 +1,4 @@
+SELECT DISTINCT jobLevel
+FROM IRSagents
+WHERE active = TRUE
+ORDER BY jobLevel DESC
